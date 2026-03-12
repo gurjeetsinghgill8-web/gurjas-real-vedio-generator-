@@ -1,0 +1,131 @@
+# 🎬 AI Sage Video Generator
+
+Ancient Indian Sage style talking videos — bilkul YouTube Shorts jaisi!
+
+**Topic likho → AI Script → AI Voice → Talking Video → Download!**
+
+---
+
+## 🚀 Quick Setup (15 minutes mein done!)
+
+### Step 1 — GitHub pe Upload Karo
+
+1. [github.com](https://github.com) pe jaao → New Repository
+2. Name: `ai-video-generator`
+3. Public rakho
+4. Ye 3 files upload karo:
+   - `app.py`
+   - `requirements.txt`
+   - `README.md`
+
+---
+
+### Step 2 — Streamlit Cloud pe Deploy Karo (FREE)
+
+1. [share.streamlit.io](https://share.streamlit.io) pe jaao
+2. GitHub se login karo
+3. "New App" click karo
+4. Apna repo select karo → `app.py` select karo
+5. **Deploy!** → App live ho jayegi!
+
+---
+
+### Step 3 — API Keys Banao (Sab FREE)
+
+#### 🤖 Anthropic API (Script Generation)
+1. [console.anthropic.com](https://console.anthropic.com) → Signup
+2. API Keys → Create Key
+3. `sk-ant-...` wali key copy karo
+
+#### 🔊 ElevenLabs (Voice Generation)
+1. [elevenlabs.io](https://elevenlabs.io) → Free Signup
+2. Profile → API Key copy karo
+3. Free mein 10,000 characters/month milte hain
+
+#### 🎥 D-ID (Talking Video)
+1. [studio.d-id.com](https://studio.d-id.com) → Free Signup
+2. Settings → API Keys → Generate
+3. Free mein 5 minutes of video/month milta hai
+
+#### 🖼️ Leonardo AI (Character Images)
+1. [app.leonardo.ai](https://app.leonardo.ai) → Free Signup
+2. Image generate karo
+3. Image pe right-click → "Copy Image Address"
+
+---
+
+### Step 4 — Character Image Banao (Leonardo AI)
+
+**Ye prompt use karo:**
+```
+Ancient Indian rishi sage, muscular warrior saint, long black hair tied up,
+rudraksha beads necklace, white dhoti, tilak on forehead, sitting in ancient
+hut, wooden tools visible, warm dramatic lighting, cinematic 4K portrait,
+ultra realistic, Story of Great Souls style
+```
+
+---
+
+## 📁 File Structure
+
+```
+ai-video-generator/
+├── app.py           ← Main Streamlit app
+├── requirements.txt ← Dependencies
+└── README.md        ← Yahi file
+```
+
+---
+
+## 🔄 Full Workflow
+
+```
+1. Topic type karo
+       ↓
+2. Script Generate (Claude AI)
+       ↓
+3. Script edit kar sakte ho
+       ↓
+4. Voice Generate (ElevenLabs)
+       ↓
+5. Character image URL daalo
+       ↓
+6. Talking Video Generate (D-ID)
+       ↓
+7. Video download karo!
+       ↓
+8. YouTube Shorts / Instagram Reels pe upload!
+```
+
+---
+
+## 💰 Cost Summary
+
+| Tool | Free Tier | Paid |
+|------|-----------|------|
+| Streamlit | FREE forever | - |
+| GitHub | FREE forever | - |
+| Anthropic | $5 free credits | Pay-as-you-go |
+| ElevenLabs | 10k chars/month FREE | $5/month |
+| D-ID | 5 min video/month FREE | $5.9/month |
+| Leonardo AI | 150 images/day FREE | $10/month |
+
+**Total monthly cost for ~20 videos = $0 (free tiers use karke)**
+
+---
+
+## 🆘 Common Problems
+
+**Script generate nahi ho raha?**
+→ Anthropic key check karo, balance check karo
+
+**Voice error aa raha hai?**
+→ ElevenLabs pe free quota check karo
+
+**Video nahi ban raha?**
+→ Image URL direct accessible hona chahiye (Google Drive links kaam nahi karenge)
+→ D-ID pe sign in karke manually bhi bana sakte ho
+
+---
+
+Made with ❤️ using Claude AI + ElevenLabs + D-ID
